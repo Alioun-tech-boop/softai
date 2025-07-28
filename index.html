@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soft AI - Solutions Web et Intelligence Artificielle | Burkina Faso</title>
+    <meta name="description" content="Soft AI offre des services de création de sites web, conception d'agents IA et solutions intelligentes au Burkina Faso.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/logo.png">
+</head>
+<body>
+    <!-- Préloader -->
+    <div class="preloader">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo-container">
+                <img src="http://127.0.0.1:8001/logo.softai.jpg" alt="Soft AI Logo" class="logo">
+                <span class="company-name">Soft AI</span>
+            </div>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link active">Accueil</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#about" class="nav-link">À propos</a></li>
+                    <li><a href="#pricing" class="nav-link">Tarifs</a></li>
+                    <li><a href="#testimonials" class="nav-link">Avis</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Solutions Digitales & Intelligence Artificielle</h1>
+                <p class="hero-subtitle">Transformez votre entreprise avec nos technologies de pointe adaptées au marché burkinabè</p>
+                <div class="hero-buttons">
+                    <a href="#services" class="btn btn-primary">Nos Services</a>
+                    <a href="#contact" class="btn btn-secondary">Contactez-nous</a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-down">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Nos Services</h2>
+            <p class="section-subtitle">Nous offrons des solutions complètes pour votre présence en ligne et vos besoins en IA</p>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3 class="service-title">Sites Web Statiques</h3>
+                    <p class="service-description">Présence en ligne professionnelle avec un site vitrine rapide et optimisé.</p>
+                    <button class="btn service-btn" data-service="Site Web Statique" data-price="35000">Demander un devis</button>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3 class="service-title">Sites Web Dynamiques</h3>
+                    <p class="service-description">Solutions complètes avec backend pour une interactivité avancée.</p>
+                    <button class="btn service-btn" data-service="Site Web Dynamique" data-price="96000">Demander un devis</button>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3 class="service-title">Agents IA</h3>
+                    <p class="service-description">Automatisez vos processus avec nos solutions d'intelligence artificielle sur mesure.</p>
+                    <button class="btn service-btn" data-service="Agent IA" data-price="150000">Demander un devis</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <h2 class="section-title">À propos de Soft AI</h2>
+                <p class="about-text">Soft AI est une entreprise innovante basée au Burkina Faso, spécialisée dans le développement web et les solutions d'intelligence artificielle.</p>
+                <p class="about-text">Notre mission est d'apporter les dernières technologies digitales aux entreprises burkinabè, avec des solutions adaptées au marché local.</p>
+                <p class="about-text">Nous combinons expertise technique et compréhension des besoins spécifiques de nos clients pour offrir des produits performants et accessibles.</p>
+                <div class="stats">
+                    <div class="stat-item">
+                        <span class="stat-number" data-count="50">0</span>
+                        <span class="stat-label">Projets réalisés</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-count="30">0</span>
+                        <span class="stat-label">Clients satisfaits</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-count="5">0</span>
+                        <span class="stat-label">Agents IA déployés</span>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image">
+                <img src="http://127.0.0.1:8001/logo.softai.jpg" alt="À propos de Soft AI">
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <h2 class="section-title">Nos Tarifs</h2>
+            <p class="section-subtitle">Des solutions adaptées à tous les budgets</p>
+            
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h3 class="pricing-title">Site Web Statique</h3>
+                    <div class="price">35,000 FCFA</div>
+                    <ul class="features">
+                        <li><i class="fas fa-check"></i> 5 pages maximum</li>
+                        <li><i class="fas fa-check"></i> Design responsive</li>
+                        <li><i class="fas fa-check"></i> Formulaire de contact</li>
+                        <li><i class="fas fa-check"></i> Hébergement inclus (1 an)</li>
+                        <li><i class="fas fa-check"></i> Nom de domaine (.com ou .bf)</li>
+                    </ul>
+                    <button class="btn pricing-btn" data-service="Site Web Statique" data-price="35000">Choisir ce forfait</button>
+                </div>
+                
+                <div class="pricing-card featured">
+                    <div class="popular-badge">Populaire</div>
+                    <h3 class="pricing-title">Site Web Dynamique</h3>
+                    <div class="price">À partir de 96,000 FCFA</div>
+                    <ul class="features">
+                        <li><i class="fas fa-check"></i> Nombre de pages illimité</li>
+                        <li><i class="fas fa-check"></i> Système de gestion de contenu</li>
+                        <li><i class="fas fa-check"></i> Base de données</li>
+                        <li><i class="fas fa-check"></i> Hébergement inclus (1 an)</li>
+                        <li><i class="fas fa-check"></i> Nom de domaine (.com ou .bf)</li>
+                    </ul>
+                    <button class="btn pricing-btn" data-service="Site Web Dynamique" data-price="96000">Choisir ce forfait</button>
+                </div>
+                
+                <div class="pricing-card">
+                    <h3 class="pricing-title">Agent IA</h3>
+                    <div class="price">150,000 FCFA</div>
+                    <ul class="features">
+                        <li><i class="fas fa-check"></i> Solution sur mesure</li>
+                        <li><i class="fas fa-check"></i> Formation des employés</li>
+                        <li><i class="fas fa-check"></i> Maintenance 6 mois</li>
+                        <li><i class="fas fa-check"></i> Documentation complète</li>
+                        <li><i class="fas fa-check"></i> Support technique</li>
+                    </ul>
+                    <button class="btn pricing-btn" data-service="Agent IA" data-price="150000">Choisir ce forfait</button>
+                </div>
+            </div>
+            
+            <div class="custom-project">
+                <p>Vous avez un projet spécifique? <a href="#contact">Contactez-nous</a> pour un devis personnalisé.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="testimonials-overlay"></div>
+        <div class="container">
+            <h2 class="section-title">Avis Clients</h2>
+            <p class="section-subtitle">Ce que nos clients disent de nous</p>
+            
+            <div class="testimonials-slider">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p class="testimonial-text">"Soft AI a créé un site web magnifique pour mon entreprise. Professionnel, rapide et à l'écoute de mes besoins. Je recommande vivement!"</p>
+                        <div class="testimonial-author">
+                            <div class="author-info">
+                                <h4 class="author-name">Aïcha Kaboré</h4>
+                                <p class="author-role">Directrice, Kaboré Cosmetics</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p class="testimonial-text">"L'agent IA développé par Soft AI a transformé notre service client. Les retours de nos clients sont excellents et notre équipe est plus productive."</p>
+                        <div class="testimonial-author">
+                            <div class="author-info">
+                                <h4 class="author-name">Jean Ouédraogo</h4>
+                                <p class="author-role">PDG, OuagaTech</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p class="testimonial-text">"Excellent rapport qualité-prix. Le site web dynamique qu'ils ont créé pour notre boutique en ligne a augmenté nos ventes de 40% en 3 mois."</p>
+                        <div class="testimonial-author">
+                            <div class="author-info">
+                                <h4 class="author-name">Fatimata Sawadogo</h4>
+                                <p class="author-role">Propriétaire, FasoMode</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="add-testimonial">
+                <h3>Partagez votre expérience</h3>
+                <p>Vous êtes client de Soft AI? Laissez-nous votre avis pour nous aider à améliorer nos services.</p>
+                <button class="btn" id="open-testimonial-form">Laisser un avis</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contactez-nous</h2>
+            <p class="section-subtitle">Nous sommes à votre écoute pour tout projet ou question</p>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="info-content">
+                            <h4>Adresse</h4>
+                            <p>Ouagadougou, Burkina Faso</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <div class="info-content">
+                            <h4>Téléphone</h4>
+                            <p>+226 01 70 83 23</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div class="info-content">
+                            <h4>Email</h4>
+                            <p>softa7161@gmail.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form id="feedback-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Votre nom" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Votre email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Sujet">
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Votre message ou suggestion" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Envoyer</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Modal -->
+    <div class="modal" id="service-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h3 class="modal-title">Demande de service</h3>
+            <form id="service-form">
+                <input type="hidden" id="selected-service" name="service">
+                <input type="hidden" id="selected-price" name="price">
+                
+                <div class="form-group">
+                    <input type="text" id="client-name" name="name" placeholder="Votre nom complet" required>
+                </div>
+                <div class="form-group">
+                    <input type="tel" id="client-phone" name="phone" placeholder="Votre numéro WhatsApp" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="client-email" name="email" placeholder="Votre email">
+                </div>
+                <div class="form-group">
+                    <textarea id="client-message" name="message" placeholder="Décrivez brièvement votre projet"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Envoyer via WhatsApp</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Testimonial Modal -->
+    <div class="modal" id="testimonial-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h3 class="modal-title">Ajouter un avis</h3>
+            <form id="testimonial-form">
+                <div class="form-group">
+                    <input type="text" id="testimonial-name" name="name" placeholder="Votre nom" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="testimonial-role" name="role" placeholder="Votre fonction/entreprise">
+                </div>
+                <div class="form-group">
+                    <textarea id="testimonial-text" name="text" placeholder="Votre avis" required></textarea>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="testimonial-email" name="email" placeholder="Votre email" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Envoyer l'avis</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Success Modal -->
+    <div class="modal" id="success-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="success-icon">
+                <i class="fas fa-check-circle"></i>
+            </div>
+            <h3 class="modal-title">Message envoyé!</h3>
+            <p class="success-message">Nous vous contacterons bientôt. Merci!</p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <div class="logo-container">
+                        <img src="http://127.0.0.1:8001/logo.softai.jpg" alt="Soft AI Logo" class="logo">
+                        <span class="company-name">Soft AI</span>
+                    </div>
+                    <p class="footer-text">Solutions digitales et intelligentes pour les entreprises du Burkina Faso.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4 class="footer-title">Liens rapides</h4>
+                    <ul>
+                        <li><a href="#home">Accueil</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#pricing">Tarifs</a></li>
+                        <li><a href="#about">À propos</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-services">
+                    <h4 class="footer-title">Nos Services</h4>
+                    <ul>
+                        <li><a href="#services">Sites Web Statiques</a></li>
+                        <li><a href="#services">Sites Web Dynamiques</a></li>
+                        <li><a href="#services">Agents IA</a></li>
+                        <li><a href="#services">Solutions Sur Mesure</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h4 class="footer-title">Contact</h4>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> Ouagadougou, BF</li>
+                        <li><i class="fas fa-phone-alt"></i> +226 01 70 83 23</li>
+                        <li><i class="fas fa-envelope"></i> softa7161@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p class="copyright">&copy; <span id="year"></span> Soft AI. Tous droits réservés.</p>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
